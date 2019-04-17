@@ -103,7 +103,8 @@ exec ~/.config/i3/set-background.sh
 # start a terminal
 #bindsym $mod+return exec terminal
 # start a terminal (termite)
-bindsym $mod+Return exec termite 
+# bindsym $mod+Return exec termite
+bindsym $mod+Return exec alacritty 
 
 # kill focused window
 bindsym $mod+Shift+q kill
